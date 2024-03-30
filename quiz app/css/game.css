@@ -1,0 +1,99 @@
+#loader {
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+    border: 10px solid #00a2ff;
+    width: 100px;
+    height: 100px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    display: inline-block;
+    animation: rotation 1.5s linear infinite;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    } 100% {
+        transform: rotate(360deg);
+    }
+}
+.container {
+    width: 700px;
+    display: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
+header span {
+    display: inline-block;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    font-size: 1.6rem;
+    color: #00a2ff;
+    border-radius: 5px;
+}
+header p {
+    display: inline-block;
+    align-items: center;
+    font-size: 1.6rem;
+    color: #00a2ff;
+    margin: 0 10px;
+}
+header div {
+    display: flex;
+    align-items: center;
+}
+#question-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#question-box h3 {
+    color: #fff;
+    background-color: #00a2ff;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    margin-top: 5rem;
+}
+.answer-question {
+    text-align: left;
+    padding: 15px;
+    color: #111;
+    background-color: #fff;
+    border: none;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: all 100ms;
+}
+.answer-question:hover {
+    border: 3px solid #fff;
+    background-color: #eeedfb;
+}
+#finish-button, #next-button {
+    padding: 10px;
+    color: #00a2ff;
+    background-color: none;
+    border: #00a2ff solid 2px;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: all 100ms;
+}
+#finish-button:hover, #next-button:hover {
+    color: #fff;
+    background-color: #00a2ff;
+    border: none;
+}
+.correct, .correct:hover {
+    background-color: #15eb43;
+}
+.incorrect, .incorrect:hover {
+    background-color: #ff7c7c;
+}

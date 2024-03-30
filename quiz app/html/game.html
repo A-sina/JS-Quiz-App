@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="../css/game.css" />
+    <link rel="stylesheet" href="../css/global.css" />
+</head>
+<body>
+    <span id="loader"></span>
+    <h1></h1>
+    <div id="container">
+        <header>
+            <div>
+                <p>Question No:</p>
+                <span id="question-no">1</span>
+            </div>
+            <div>
+                <p>Scores:</p>
+                <span id="scores">0</span>
+            </div>
+        </header>
+        <div id="question-box">
+            <h3 id="question-text"></h3>
+            <button class="answer-question"></button>
+            <button class="answer-question"></button>
+            <button class="answer-question"></button>
+            <button class="answer-question"></button>
+        </div>
+        <button id="finish-button">Finish</button>
+        <button id="next-button">Next</button>
+    </div>
+    <script src="../js/game.js" type="module"></script>
+    <script src="../js/help.js" type="module"></script>
+</body>
+</html>

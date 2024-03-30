@@ -1,0 +1,36 @@
+a {
+    background-color: transparent;
+    text-decoration: none;
+    border: solid 4px #00a2ff;
+    color: #00a2ff;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 3rem;
+    transition: all 200ms;
+}
+div {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    text-align:  center;
+    color: #00a2ff;
+    background-color: #fff;
+    width: 350px;
+    padding: 20px;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    transition: all 200ms ease-in;
+    text-decoration: none;
+}
+button:hover {
+    color: #eeedfb;
+    background-color: #00a2ff;
+}
+h1 {
+    margin: 5rem auto;
+    color: #00a2ff;
+    font-size: 2.5rem;
+}
